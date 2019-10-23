@@ -300,7 +300,7 @@ display: flex;
 }
 .textcontrol{
      position: absolute;
-    padding-left: 45%;
+    padding-left: 44%;
 }
 .bgcol{
 	position: relative;
@@ -799,4 +799,35 @@ display: flex;
 }
 .color2{
 	color: #e0e0e0;
+}
+
+.bottom-yellow{
+	margin-left: 6px;
+	width: 65px;
+	height: 2px;
+	/*background-color: #fdbf47;*/
+	position: relative;
+	margin-top: 2px;
+}
+.bottom-yellow:hover{
+	background-color: #fdbf47;
+	transition-property: color;
+	/*transition-delay: 0.1s;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;*/
+}
+.bottom-yellow2{
+	margin-left: 0px;
+	width: 55px;
+	height: 2px;
+	/*background-color: #fdbf47;*/
+	position: relative;
+	margin-top: 2px;
+}
+.bottom-yellow2:hover{
+	background-color: #fdbf47;
+	transition-property: color;
+	/*transition-delay: 0.1s;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;*/
 }
