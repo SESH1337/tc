@@ -89,6 +89,10 @@ u{
 	width: 30px;
 	height: 1px;
 }
+
+.kako{
+	margin-left: 10px;
+}
 .line1{
 width: 24px;
 	height: 1px;
@@ -96,8 +100,9 @@ width: 24px;
 }
 
 .line2{
-	width: 19px;
+	width: 2%;
 	height: 1px;
+	left: 4%
 }
 
 .line3{
@@ -131,7 +136,24 @@ position: absolute;
 	top:104%;
 	color: #545961;
 }
-
+.plus-kolaj{
+	float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 170px;
+}
+.line-lab3{
+	width: 15px;
+	height: 1px;
+	margin-top: 50px;
+}
+.line-lab{
+	position: absolute;
+	right:190%;
+    width: 125px;
+    margin-top: 50px;
+    
+}
 }
 .boty{
 	clear:both;
@@ -234,11 +256,10 @@ body{
 .clear-both{
 	clear: both
 }
-.list{
-  /*  z-index: 1000;
-	margin-left: 400px;
-	margin-top: 200px;*/
+.linear{
+	    margin-left: 25%;
     
+    margin-top: 10%;
 }
 .fonts{
 	font-family: 'DIN Condensed Bold';
@@ -326,7 +347,7 @@ display: flex;
 .main2{
 	position: absolute;
 	top: 50%;
-	left: 55%;
+	left: 58%;
 	width: 355px;
     
 }
@@ -334,14 +355,29 @@ display: flex;
 	position: absolute;
 	right:190%;
     width: 125px;
-
+    /*position: absolute;
+    right: 190%;*/
+    width: 20px;
+}
+.autor{
+	margin-top: 2px;
+}
+.design{
+	margin-top: 5px;
+}
 }
 .light{
 	display: flex;
-	margin-top: 25px;
+	margin-top: 30%;
+}
+.light15{
+	width: 150px;
+
 }
 .space{
-	margin-left: 15px;
+	margin-left:30px;
+	padding-top: 19px;   
+	display: inline-block; 
 }
 .goal{
 	position: relative;
@@ -711,13 +747,25 @@ display: flex;
 .fire{
 	font-size: 27px;
 }
+.plus-export{
+	float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 50px;
+
+}
 .turkey{
 	font-size: 19px;
 }
 .import{
 	float: right;
+	margin-top: -27%;
+	margin-right: 40%;
+}
+.import3{
+	float: right;
 	margin-top: -20%;
-	margin-right: 33%;
+	margin-right: 34%;
 }
 .margin9px{
 	margin-top: 9px;
@@ -735,9 +783,26 @@ display: flex;
 	float: right;
 	display:inline-block;
 	font-size:26px;
-	margin-right: 50px;
+	margin-right: 100px;
+}
+.plus-line{
+
+	float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 170px;
+}
+.plus-line2{
+float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 100px;
+}
 }
 .plus-up{
+	margin-right: 38%;	
+}
+.plus-up-export{
 	margin-right: 38%;	
 }
 .holla{
@@ -831,3 +896,33 @@ display: flex;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;*/
 }
+/*.bottom-wheat{
+ margin-top:30px;
+ height: 2px;
+ width: 30px;
+ p
+}
+.bottom-wheat:hover{
+	background-color: #fdbf47;
+	transition-property: color;
+	/*transition-delay: 0.1s;
+	transition-duration: 0.1s;
+	transition-timing-function: linear;*/
+}*/
+.plus2{
+	float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 50px;
+}
+.plus3{
+	float: right;
+	display:inline-block;
+	font-size:26px;
+	margin-right: 50px;
+	}
+
+.app{
+	position: relative;
+	margin-top: 133%;
+	}}
